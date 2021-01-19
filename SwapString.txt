@@ -1,0 +1,11 @@
+public class swaptest
+{
+
+     public static void main(String []args)
+     {
+        String str = "Welcome to Test Yantra";
+        String str1 = str.replace( "Welcome to Test Yantra", "Yantra to Test Welcome" );
+        System.out.println("Swap words:"+str);
+        System.out.println("Swap words:"+str1);
+     }
+}
