@@ -1,0 +1,9 @@
+Public class StringRev 
+{
+  Public static void main(String[] args)
+  {
+     String str="Welcome to Test Yantra";
+     String rev=new StringBuffer(str).reverse().toString();
+     System.out.println("Reverse of a String:",+rev);
+  }
+}
